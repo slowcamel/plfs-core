@@ -31,12 +31,12 @@ std::string mss::mlog_oss::str() {
 bool mss::mlog_oss::getNoLog() {
     return noLog;
 }
-
+/*
 void mss::mlog_oss::insert_os(const std::ostream& xin) {
     oss << xin;
 }
 
-/*
+
 std::ostream& mss::mlog_oss::operator<< (bool val) {
     check_lvl(val);
     return oss;
